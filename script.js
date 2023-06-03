@@ -6,9 +6,12 @@ const person = {
 };
 const team = players
 const team1=[]
-const cap1 = person
+const cap1 = {}
 for(let i=0;i<players.length;i++){
  team1[i] = players[i] 
+}
+for(let i=0;i<person.length;i++){
+ cap1[i] = person[i] 
 }
 
 window.players = players;
